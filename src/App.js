@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import {publicRouters} from "./routers/index"
 
 function App() {
   return (
@@ -10,8 +11,6 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>minh</p>
-        <p>tuấn anh</p>
-        <p>trường</p>
         <a
           className="App-link"
           href="https://reactjs.org"
