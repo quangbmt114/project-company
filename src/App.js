@@ -11,6 +11,7 @@ function App() {
         </p>
         <p>minh</p>
         <p>tuấn anh</p>
+        <p>trường</p>
         <a
           className="App-link"
           href="https://reactjs.org"
