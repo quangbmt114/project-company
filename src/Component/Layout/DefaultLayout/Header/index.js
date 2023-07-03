@@ -23,6 +23,9 @@ function Header() {
                 <Link to="/services" className="link">Services</Link>
               </Nav.Link>
               <Nav.Link className="link"><Link to="/technologies" className="link">Technologies</Link></Nav.Link>
+              <Nav.Link className="link">
+                <Link to="/careers" className="link">Careers</Link>
+              </Nav.Link>
             </Nav>
             <Nav className="d-flex">
                 <div className="build-a-team">
