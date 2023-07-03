@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 function Header() {
   return (
-    <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <div className="position-fixed w-100 ">
+      <Navbar expand="lg" className="bg-body-tertiary ">
         <Container>
           <Navbar.Brand style={{marginRight:"10%",padding:0}}>
             <Link to="/"><img src="logo1.png" width={110}/></Link>
@@ -38,7 +38,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </div>
   );
 }
 

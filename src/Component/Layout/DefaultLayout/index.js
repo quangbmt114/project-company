@@ -10,7 +10,7 @@ function DefaultLayout({children}) {
   >
     <div>
       <Header />
-      <div className="content">
+      <div className="content pt-5 pb-5">
             {children}
       </div>
       <Footer />
