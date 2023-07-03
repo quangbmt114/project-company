@@ -1,0 +1,300 @@
+.component-1,
+.component-1 * {
+  box-sizing: border-box;
+}
+.component-1 {
+  width: 1920px;
+  height: 647px;
+  position: relative;
+}
+.logo-2 {
+  width: 195px;
+  height: 83px;
+  position: absolute;
+  left: 203px;
+  top: 30px;
+}
+.paragraph-40 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 975px;
+  top: 110px;
+}
+.paragraph-1 {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 400 18px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 353px;
+}
+.paragraph-41 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 975px;
+  top: 163px;
+}
+.paragraph-42 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 975px;
+  top: 216px;
+}
+.paragraph-43 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 975px;
+  top: 269px;
+}
+.paragraph-54 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 589px;
+  top: 110px;
+}
+.paragraph-55 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 589px;
+  top: 163px;
+}
+.paragraph-56 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 589px;
+  top: 216px;
+}
+.paragraph-57 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 243px;
+  top: 336px;
+}
+.paragraph-115 {
+  width: 353px;
+  height: 56px;
+  position: absolute;
+  left: 204px;
+  top: 143px;
+}
+.paragraph-116 {
+  width: 353px;
+  height: 25px;
+  position: absolute;
+  left: 243px;
+  top: 230px;
+}
+.paragraph-117 {
+  width: 353px;
+  height: 25px;
+  position: absolute;
+  left: 243px;
+  top: 281px;
+}
+.paragraph-118 {
+  width: 353px;
+  height: 25px;
+  position: absolute;
+  left: 204px;
+  top: 475px;
+}
+.paragraph-12 {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 600 18px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 353px;
+}
+.paragraph-52 {
+  width: 357px;
+  height: 30px;
+  position: absolute;
+  left: 200px;
+  top: 617px;
+}
+.paragraph-13 {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 400 18px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 357px;
+}
+.paragraph-53 {
+  width: 357px;
+  height: 30px;
+  position: absolute;
+  left: 589px;
+  top: 55px;
+}
+.heading-12 {
+  width: 332px;
+  height: 34px;
+  position: absolute;
+  left: 589px;
+  top: 48px;
+}
+.heading-4 {
+  color: var(--default, #16205f);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 332px;
+  height: 34px;
+}
+.heading-13 {
+  width: 332px;
+  height: 34px;
+  position: absolute;
+  left: 975px;
+  top: 48px;
+}
+.heading-42 {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 332px;
+  height: 34px;
+}
+.paragraph-119 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 1357px;
+  top: 110px;
+}
+.paragraph-120 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 1357px;
+  top: 163px;
+}
+.paragraph-121 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 1357px;
+  top: 216px;
+}
+.paragraph-122 {
+  width: 353px;
+  height: 28px;
+  position: absolute;
+  left: 1357px;
+  top: 269px;
+}
+.heading-51 {
+  width: 332px;
+  height: 34px;
+  position: absolute;
+  left: 1357px;
+  top: 48px;
+}
+.line-32 {
+  border-style: solid;
+  border-color: #c4c4c4;
+  border-width: 1px 0 0 0;
+  width: 1920px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 588px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.phone-enabled {
+  position: absolute;
+  left: 203px;
+  top: 230px;
+  overflow: visible;
+}
+.email {
+  position: absolute;
+  left: 203px;
+  top: 284px;
+  overflow: visible;
+}
+.location-on {
+  position: absolute;
+  left: 203px;
+  top: 338px;
+  overflow: visible;
+}
+.linked-in {
+  position: absolute;
+  left: 203px;
+  top: 522px;
+  overflow: visible;
+}
+.facebook {
+  position: absolute;
+  left: 257px;
+  top: 522px;
+  overflow: visible;
+}
+.instagram {
+  position: absolute;
+  left: 311px;
+  top: 522px;
+  overflow: visible;
+}
+.twitter {
+  position: absolute;
+  left: 364px;
+  top: 522px;
+  overflow: visible;
+}
+.you-tube {
+  position: absolute;
+  left: 418px;
+  top: 522px;
+  overflow: visible;
+}
+.terms-conditions {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 400 18px "Poppins", sans-serif;
+  position: absolute;
+  left: 589px;
+  top: 270px;
+  width: 353px;
+}
+.contact-us {
+  color: var(--black, #16205f);
+  text-align: left;
+  font: 400 18px "Poppins", sans-serif;
+  position: absolute;
+  left: 589px;
+  top: 329px;
+  width: 353px;
+}
+.line-28 {
+  border-style: solid;
+  border-color: #c4c4c4;
+  border-width: 1px 0 0 0;
+  width: 1920px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}

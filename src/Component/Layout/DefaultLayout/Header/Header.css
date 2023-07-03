@@ -11,6 +11,7 @@
 }
 
 .build-a-team {
+    cursor: pointer;
     padding: 5px 20px;
     flex-shrink: 0;
     border-radius: 8px;
