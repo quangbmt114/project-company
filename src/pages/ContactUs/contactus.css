@@ -1,0 +1,41 @@
+.banner {
+    background-image: url("Rectangle26.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 408px;
+}
+
+.tittle-banner {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 78px;
+}
+
+.tittle-heading-2 {
+    text-align: left;
+    color: var(--black, #16205F);
+    font-size: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.content-heading-2 {
+    text-align: left;
+    color: var(--black, #16205F);
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.heading-2{
+    margin: 10% auto;
+}
