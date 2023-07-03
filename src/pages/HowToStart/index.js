@@ -1,5 +1,4 @@
 import "../HowToStart/style.css"
-import Banner from "../HowToStart/img/banner.png"
 import Banner2 from "../HowToStart/img/banner2.png"
 import Img from "../HowToStart/img/img.png"
 
@@ -14,23 +13,18 @@ import {
 function HowToStart() {
     return (
         <>
-            <div className="banner pb-5 bg-cover bg-center d-flex align-items-center justify-content-center">
-                <img src={Banner} className="w-100" alt="banner" />
-                <div className="container position-absolute">
-                    <div className="row">
-                        <div className="text-white text-center">
-                            <h1 className="title mb-3 fw-bold">How to Start</h1>
-                            <p className="content">We specialize in helping you build a team of expert developers.</p>
-                        </div>
-                    </div>
+            <div id="hero-banner-wrap">
+                <div class="hero-banner">
+                    <h2 className="title mb-3 fw-bold">How to Start</h2>
+                    <p className="content">We specialize in helping you build a team of expert developers.</p>
                 </div>
             </div>
 
-            <div className="container">
-                <div className="text-start">
-                    <div className="col-12 col-md-4" style={{ color: "#16205F" }}>
-                        <h3 className="title fw-bold">How to Get Started with Courtney</h3>
-                        <p style={{fontWeight: "300px"}}> From full-time remote engineering teams to hourly
+            <div className="container py-5">
+                <div className="header">
+                    <div className="col-sm-4 text-start">
+                        <h3 className="title">How to Get Started with Courtney</h3>
+                        <p> From full-time remote engineering teams to hourly
                             contractors, work with remote devs as needed
                         </p>
                     </div>
@@ -62,7 +56,7 @@ function HowToStart() {
 
                 <div className="text-start">
                     <div className="col-12 col-md-4" style={{ color: "#16205F" }}>
-                        <h3>Why You Need To Hire Remote Developers</h3>
+                        <h3 className="fw-bold">Why You Need To Hire Remote Developers</h3>
                     </div>
                 </div>
 
@@ -88,19 +82,8 @@ function HowToStart() {
                         </div>
                     </div>
                 </div>
-                 
-                <div className="py-5">
-                    <img src={Banner2} className="w-100" alt="" />
-                    <div className="d-flex align-items-center">
-                        <div className="image-container">
-                            <img src={Img} alt="" className="img-fluid w-100" />
-                            <div className="overlay">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
- 
+                <img src={Banner2} className="w-100" alt="" />
             </div>
         </>
     );
