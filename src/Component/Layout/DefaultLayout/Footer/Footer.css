@@ -21,14 +21,44 @@
   left: 975px;
   top: 110px;
 }
+.image-1{
+    text-align: left;
+}
 .paragraph-1 {
   color: var(--black, #16205f);
   text-align: left;
-  font: 400 18px "Poppins", sans-serif;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 353px;
+  font: 600 16px "Poppins", sans-serif;
+  display: flex;
+width: 353px;
+height: 56px;
+padding-bottom: 0px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.paragraph-2{
+    height: 56px;
+    color: var(--black, #16205f);
+    text-align: left;
+    font: 600 16px "Poppins", sans-serif; 
+    display: inline-flex;
+    width: 353px;
+    height: 56px;
+    padding-bottom: 0px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.paragraph-3{
+    height: 56px;
+    color: var(--black, #16205f);
+    text-align: left;
+    font: 600 16px "Poppins", sans-serif; 
+    display: inline-flex;
+    width: 353px;
+    height: 100px;
+    padding-bottom: 0px;
+    align-items: baseline;
+    flex-shrink: 0;
 }
 .paragraph-41 {
   width: 353px;
