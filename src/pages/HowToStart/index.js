@@ -22,7 +22,7 @@ function HowToStart() {
             </div>
 
             <div className="container py-5">
-                <div className="header">
+                <div className="header-howtostart">
                     <div className="col-sm-4 text-start">
                         <h3 className="title">How to Get Started with Courtney</h3>
                         <p> From full-time remote engineering teams to hourly
