@@ -1,4 +1,5 @@
 import "../HowToStart/style.css"
+import Banner from "../HowToStart/img/banner.png"
 import Banner2 from "../HowToStart/img/banner2.png"
 import Img from "../HowToStart/img/img.png"
 
@@ -14,7 +15,7 @@ function HowToStart() {
     return (
         <>
             <div id="hero-banner-wrap">
-                <div class="hero-banner">
+                <div className="hero-banner">
                     <h2 className="title mb-3 fw-bold">How to Start</h2>
                     <p className="content">We specialize in helping you build a team of expert developers.</p>
                 </div>
