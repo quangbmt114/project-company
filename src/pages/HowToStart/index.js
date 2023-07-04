@@ -1,15 +1,12 @@
-import "../HowToStart/style.css"
-import Banner from "../HowToStart/img/banner.png"
-import Banner2 from "../HowToStart/img/banner2.png"
-import Img from "../HowToStart/img/img.png"
-
-import G1 from "../HowToStart/img/g1.png"
-import G2 from "../HowToStart/img/g2.png"
-import G3 from "../HowToStart/img/g3.png"
+import "../HowToStart/style.css";
+import Banner from "../HowToStart/img/banner.png";
+import Banner2 from "../HowToStart/img/banner2.png";
+import Img from "../HowToStart/img/img.png";
+import G1 from "../HowToStart/img/g1.png";
+import G2 from "../HowToStart/img/g2.png";
+import G3 from "../HowToStart/img/g3.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faChevronRight
-} from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function HowToStart() {
     return (
@@ -25,9 +22,7 @@ function HowToStart() {
                 <div className="header-howtostart">
                     <div className="col-sm-4 text-start">
                         <h3 className="title">How to Get Started with Courtney</h3>
-                        <p> From full-time remote engineering teams to hourly
-                            contractors, work with remote devs as needed
-                        </p>
+                        <p>From full-time remote engineering teams to hourly contractors, work with remote devs as needed</p>
                     </div>
                 </div>
 
@@ -84,7 +79,60 @@ function HowToStart() {
                     </div>
                 </div>
 
-                <img src={Banner2} className="w-100" alt="" />
+                <div className="row banner2-howToStart">
+                    <img src={Banner2} className="img-fluid" alt="" />
+                </div>
+
+                <div className="row custom-group position-relative">
+                    <div className="col">
+                        <div className="d-flex">
+                            <img src={Img} alt="" className="img-fluid" />
+                        </div>
+                        <div className="custom-group-overlay">
+                            <div className="custom-group-content">
+                                <h1 className="fw-bold text-start">
+                                    Connect With Your Next Great Hire Today!
+                                </h1>
+                                <form className="py-5">
+                                    <div className="row" style={{ fontSize: "16px", lineHeight: "24px" }}>
+                                        <div className="col col-md-6 form-group text-start mb-3">
+                                            <label htmlFor="">Company</label>
+                                            <input className="form-control" placeholder="Enter company" required></input>
+                                        </div>
+                                        <div className="col col-md-6 form-group text-start mb-3">
+                                            <label htmlFor="">Your Name</label>
+                                            <input className="form-control" placeholder="Enter your name" required></input>
+                                        </div>
+                                        <div className="col col-md-6 form-group text-start mb-3">
+                                            <label htmlFor="">Phone Number</label>
+                                            <input className="form-control" placeholder="Enter phone number" required></input>
+                                        </div>
+                                        <div className="col col-md-6 form-group text-start mb-3">
+                                            <label htmlFor="">Email</label>
+                                            <input className="form-control" placeholder="Enter email" required></input>
+                                        </div>
+                                        <div className="col-12 form-group text-start mb-3">
+                                            <label htmlFor="">Project Detail</label>
+                                            <textarea className="form-control" rows={5} placeholder="Enter project detail"></textarea>
+                                        </div>
+                                    </div>
+                                    <div className="form-group form-check py-3">
+                                        <input className="form-check-input" type="checkbox" id="exampleCheck1" />
+                                        <label className="form-check-label text-start" htmlFor="exampleCheck1" style={{fontSize:"16px", lineHeight:"24px"}}>
+                                            By sending this form I confirm that I have read and accept the 
+                                            <span className="fw-bold"> Privacy Policy</span>
+                                        </label>
+                                    </div>
+                                    <div className="d-flex justify-content-start">
+                                        <button className="btn btn-warning" style={{ borderRadius: "8px" }}>
+                                            GET CONSULTATION <FontAwesomeIcon icon={faArrowRight} />
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );

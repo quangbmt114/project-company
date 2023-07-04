@@ -38,3 +38,35 @@
     font-weight: 400px;
     font-family: Poppins;
 }
+
+.custom-group-overlay {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 730px;
+    height: 879px;
+    flex-shrink: 0;
+    border-radius: 100px 0px 0px 0px;
+    background:#FFF;
+}
+
+
+.custom-group-content {
+    color: #16205F;
+    padding: 90px 0 90px 90px;
+}
+
+@media(max-width:900px) {
+    .custom-group {
+        position: unset;
+    }
+
+    .custom-groups-overlay {
+        position: unset;
+        width: 100%;
+    }
+
+    .custom-group-content {
+        width: 100%;
+    }
+}
