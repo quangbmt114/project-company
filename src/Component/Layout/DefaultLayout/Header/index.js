@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 function Header() {
   return (
-    <div className="position-fixed w-100">
+    <div className=" header " lg={12}>
       <Navbar expand="lg" className="bg-body-tertiary ">
         <Container>
           <Navbar.Brand style={{marginRight:"10%",padding:0}}>
