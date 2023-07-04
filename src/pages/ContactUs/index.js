@@ -1,5 +1,7 @@
-import { Col, Container, Row, Form, Button, InputGroup } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "./contactus.css";
 function ContactUs() {
   const [validated, setValidated] = useState(false);
@@ -38,7 +40,7 @@ function ContactUs() {
         <Row className="group-2" lg={12}>
           <Col>
             <div className="group-2-1"></div>
-            <div  className="group-2-2">
+            <div className="group-2-2">
               <div className="group-2-2-1">
                 <h1
                   style={{
@@ -49,65 +51,82 @@ function ContactUs() {
                 >
                   Connect With Your Next Great Hire Today!
                 </h1>
-                <Form noValidate validated={validated} onSubmit={handleSubmit}>
-                  <Row className="mb-3">
-                    <Form.Group as={Col} md="6" controlId="validationCustom01">
-                      <Form.Label>First name</Form.Label>
-                      <Form.Control
+                <form className="py-5">
+                  <div
+                    className="row"
+                    style={{ fontSize: "16px", lineHeight: "24px" }}
+                  >
+                    <div className="col col-md-6 form-group text-start mb-3">
+                      <label htmlFor="company">Company</label>
+                      <input
+                      id="company"
+                        className="form-control"
+                        placeholder="Enter company"
                         required
-                        type="text"
-                        placeholder="First name"
-                        defaultValue="Mark"
-                      />
-                      <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-                    </Form.Group>
-                    <Form.Group as={Col} md="6" controlId="validationCustom02">
-                      <Form.Label>Last name</Form.Label>
-                      <Form.Control
+                      ></input>
+                    </div>
+                    <div className="col col-md-6 form-group text-start mb-3">
+                      <label htmlFor="name">Your Name</label>
+                      <input
+                        id="name"
+                        className="form-control"
+                        placeholder="Enter your name"
                         required
-                        type="text"
-                        placeholder="Last name"
-                        defaultValue="Otto"
-                      />
-                      <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-                    </Form.Group>
-                  </Row>
-                  <Row className="mb-3">
-                    <Form.Group as={Col} md="6" controlId="validationCustom03">
-                      <Form.Label>City</Form.Label>
-                      <Form.Control type="text" placeholder="City" required />
-                      <Form.Control.Feedback type="invalid">
-                        Please provide a valid city.
-                      </Form.Control.Feedback>
-                    </Form.Group>
-                    <Form.Group as={Col} md="6" controlId="validationCustom04">
-                      <Form.Label>State</Form.Label>
-                      <Form.Control type="text" placeholder="State" required />
-                      <Form.Control.Feedback type="invalid">
-                        Please provide a valid state.
-                      </Form.Control.Feedback>
-                    </Form.Group>
-                   
-                  </Row>
-                  <Row>
-                  <Form.Group as={Col} md="12" controlId="validationCustom05">
-                      <Form.Label>Zip</Form.Label>
-                      <Form.Control as="textarea" placeholder="Zip" required  style={{ height: '100px' }}/>
-                      <Form.Control.Feedback type="invalid">
-                        Please provide a valid zip.
-                      </Form.Control.Feedback>
-                    </Form.Group>
-                  </Row>
-                  <Form.Group className="mb-4">
-                    <Form.Check
-                      required
-                      label="Agree to terms and conditions"
-                      feedback="You must agree before submitting."
-                      feedbackType="invalid"
+                      ></input>
+                    </div>
+                    <div className="col col-md-6 form-group text-start mb-3">
+                      <label htmlFor="number">Phone Number</label>
+                      <input
+                      id="number"
+                        className="form-control"
+                        placeholder="Enter phone number"
+                        required
+                      ></input>
+                    </div>
+                    <div className="col col-md-6 form-group text-start mb-3">
+                      <label htmlFor="email">Email</label>
+                      <input
+                        id="email"
+                        className="form-control"
+                        placeholder="Enter email"
+                        required
+                      ></input>
+                    </div>
+                    <div className="col-12 form-group text-start mb-3">
+                      <label htmlFor="project-detail">Project Detail</label>
+                      <textarea
+                        id="project-detail"
+                        className="form-control"
+                        rows={5}
+                        placeholder="Enter project detail"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div className="form-group form-check py-3">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      id="exampleCheck1"
                     />
-                  </Form.Group>
-                  <Button type="submit">Submit form</Button>
-                </Form>
+                    <label
+                      className="form-check-label text-start"
+                      htmlFor="exampleCheck1"
+                      style={{ fontSize: "16px", lineHeight: "24px" }}
+                    >
+                      By sending this form I confirm that I have read and accept
+                      the
+                      <span className="fw-bold"> Privacy Policy</span>
+                    </label>
+                  </div>
+                  <div className="d-flex justify-content-start">
+                    <button
+                      className="btn btn-warning"
+                      style={{ borderRadius: "8px" }}
+                    >
+                      GET CONSULTATION <FontAwesomeIcon icon={faArrowRight} />
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </Col>
