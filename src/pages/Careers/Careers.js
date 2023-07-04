@@ -2,7 +2,6 @@ import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
 
-
 function Careers() {
   return (
     <>
@@ -44,18 +43,21 @@ function Careers() {
         <p className="location">Location</p>
         <div className="line"></div>
         <div className="group1">
-        <div className="left-side">
-          <p className="role-name">Senior Web Full Stack Developer</p>
-          <p className="role-content">
-            Seniority in development is not just about how much time you have
-            already spent behind the computer screen. It's the way you think,
-            how you approach problems and their solutions, the responsibility
-            you take on and feel.
-          </p>
-          <button className="apply">APPLY NOW <FontAwesomeIcon icon={faArrowAltCircleRight} width={40} /></button>
-          <button className="learn">LEARN MORE</button>
+          <div className="left-side">
+            <p className="role-name">Senior Web Full Stack Developer</p>
+            <p className="role-content">
+              Seniority in development is not just about how much time you have
+              already spent behind the computer screen. It's the way you think,
+              how you approach problems and their solutions, the responsibility
+              you take on and feel.
+            </p>
+            <button className="apply">
+              APPLY NOW{" "}
+              <FontAwesomeIcon icon={faArrowAltCircleRight} width={40} />
+            </button>
+            <button className="learn">LEARN MORE</button>
           </div>
-        <div className="center">
+          <div className="center">
             <button className="nodejs">Node.js</button>
             <button className="reactjs">React.js</button>
             <button className="reactjs">Vue.js</button>
@@ -68,16 +70,23 @@ function Careers() {
             <button className="c"> C# and .NET</button>
             <button className="c">GraphSQL</button>
             <button className="server">Serverless Framework</button>
+          </div>
+          <div className="right-side">
+            <p className="right-content">Remote ,</p>
+            <p className="right-content">Ostrava - Czech Republic,</p>
+            <p className="right-content">Brno - Czech Republic,</p>
+            <p className="right-content">Barcelona - Spain,</p>
+            <p className="right-content">Prague - Czech Republic,</p>
+            <p className="right-content">Zlin - Czech Republic,</p>
+          </div>
         </div>
-        <div className="right-side">
-          <p className="right-content">Remote ,</p>
-          <p className="right-content">Ostrava - Czech Republic,</p>
-          <p className="right-content">Brno - Czech Republic,</p>
-          <p className="right-content">Barcelona - Spain,</p>
-          <p className="right-content">Prague - Czech Republic,</p>
-          <p className="right-content">Zlin - Czech Republic,</p>
-        </div>
-        </div>
+      </div>
+      <div className="group2">
+        <form className="form">
+          <div className="form-name">
+            Connect With Your Next Great Hire Today!
+          </div>
+        </form>
       </div>
     </>
   );

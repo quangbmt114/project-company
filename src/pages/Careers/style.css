@@ -382,3 +382,47 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+.group2{
+  display: flex;
+  margin-left: 80px;
+  margin-top: 30rem;
+  margin-bottom: 50px;
+  width: 50.5rem;
+height: 50rem;
+flex-shrink: 0;
+border-radius: 0rem 1.25rem 6.25rem 1.25rem;
+background-color: #BBB;
+background: url("Rectangle34.png"), lightgray -377.289px -25.431px / 149.713% 102.564% no-repeat;
+}
+
+.form{
+  margin-top: 60px;
+  margin-left: 35rem;
+  width: 35.625rem;
+  height: 40.9375rem;
+  flex-shrink: 0;
+  border-radius: 6.25rem 0rem 0rem 0rem;
+  background-color: #FFF;
+}
+
+.form-name{
+  margin-top: 30px;
+  margin-left: 60px;
+  display: flex;
+width: 25.875rem;
+height: 7.8125rem;
+padding-bottom: 0px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+flex-direction: column;
+color: var(--default, #16205F);
+font-size: 1.875rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+line-height: 2.625rem;
+}
+
+
