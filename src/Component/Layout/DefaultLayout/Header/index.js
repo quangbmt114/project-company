@@ -7,7 +7,7 @@ function Header() {
       <Navbar expand="lg" className="bg-body-tertiary ">
         <Container>
           <Navbar.Brand style={{marginRight:"10%",padding:0}}>
-            <Link to="/"><img src="logo1.png" width={110}/></Link>
+            <Link to="/"><img src="logo1.png" width={110} alt="..." /></Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -29,7 +29,7 @@ function Header() {
             </Nav>
             <Nav className="d-flex">
                 <div className="build-a-team">
-                   <span  className="font-a-team">BUILD A TEAM <img src="arrow_forward.svg"className="svg-a-team" width={20}/></span>
+                   <span  className="font-a-team">BUILD A TEAM <img src="arrow_forward.svg"className="svg-a-team" width={20} alt="..." /></span>
                 </div>
                 <Nav.Link className="link">
                 <Link to="/contactus" className="link">Contact US</Link>
