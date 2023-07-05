@@ -25,9 +25,9 @@ function HowToStart() {
 
 
             <div className="container py-5">
-                <div className="header-howtostart">
+                <div className="header_howtostart">
                     <div className="col-sm-4 text-start">
-                        <h3 className="title">How to Get Started with Courtney</h3>
+                        <h3 className="title fw-bold">How to Get Started with Courtney</h3>
                         <p>From full-time remote engineering teams to hourly contractors, work with remote devs as needed</p>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function HowToStart() {
                 </div>
 
                 <div className="text-start">
-                    <div className="row py-3" style={{ color: "#16205F" }}>
+                    <div className="row py-3" style={{ color: "#16205F", fontSize:"20px" }}>
                         <div className="col-6 col-md-4">
                             <FontAwesomeIcon icon={faChevronRight} /> Talent shortage
                         </div>
@@ -86,13 +86,14 @@ function HowToStart() {
                 </div>
 
                 <div className="row banner2-howToStart">
-                    <img src={Banner2} className="img-fluid" alt="" />
+                    <img src={Banner2} className="img-fluid w-100" alt="" />
                 </div>
 
                 <div className="row custom-group position-relative">
+                    
                     <div className="col">
                         <div className="d-flex">
-                            <img src={Img} alt="" className="img-fluid" />
+                            <img src={Img} alt="" className="img-fluid"/>
                         </div>
                         <div className="custom-group-overlay">
                             <div className="custom-group-content">

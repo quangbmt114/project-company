@@ -8,19 +8,12 @@
     height: 408px;
 }
 
-.header-howtostart {
+.header_howtostart {
     color: #16205F;
 }
 
-.header-howtostart h3 {
-    font-size: 46px;
-    font-weight: 400px;
-    font-family: Poppins;
-}
-
-.header-howtostart p {
+.header_howtostart p {
     font-size: 18px;
-    font-weight: 400px;
     font-family: Poppins;
 }
 
@@ -36,7 +29,7 @@
 
 .custom-group-content {
     color: #16205F;
-    padding: 100px 30px;
+    padding:100px 30px;
 }
 
 @media(max-width:900px) {

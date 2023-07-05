@@ -1,24 +1,8 @@
-.hero-banner {
-    padding: 15vh 0 15vh 0;
-    background: url(../Technologies/img/banner.png);
+.hero-banner-technologies {
+    background-image: url("../Technologies/img/banner.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 408px;
-}
-
-
-#hero-banner-wrap h2 {
-    text-align: center;
-    font-weight: 600 !important;
-    font-size: 3em;
-}
-
-#hero-banner-wrap p {
-    font-size: 1.2em;
-    font-weight: 300 !important;
-    line-height: 1.6;
-    text-align: center;
-    word-spacing: 1px;
-    letter-spacing: -.40px;
-    margin: 2%;
-    padding: 1px;
 }
