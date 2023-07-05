@@ -9,7 +9,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
+      <div className="line-32"></div>
       <Container>
+        
         <Row>
           <Col className="component-1">
             <div className="image-1 m-3">
@@ -69,6 +71,14 @@ function Footer() {
             <div className="paragraph-2">You Get</div>
             </Col>
         </Row>
+        
+      </Container>
+
+      <div className="line-32"></div>
+      <Container>
+      <Col lg={4}>
+          <div className="since-company">© 2022 courtney</div>
+        </Col>
       </Container>
     </div>
   );

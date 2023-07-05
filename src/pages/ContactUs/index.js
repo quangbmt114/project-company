@@ -171,10 +171,10 @@ function ContactUs() {
                   </div>
                 </div>
                 <div className="group-3-1-1">
-                  <div className="heading-4">Vishwa Liyanapathirana<br/><h6 style={{font:"600 14px Poppins"}}>Human Resources</h6></div>
+                  <div className="heading-4">Kasun Perera<br/><h6 style={{font:"600 14px Poppins"}}>Funder/CEO</h6></div>
                   <div className="paragraph-13 mt-2">
-                  vishwa@courtney.lk<br/>
-                     <p style={{fontWeight:"bold"}}>+94 713 249 222</p>
+                  kasun@courtney.lk<br/>
+                     <p style={{fontWeight:"bold"}}>+44 532 82820 9292</p>
                   </div>
                 </div>
               </div>

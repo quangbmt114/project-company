@@ -63,7 +63,7 @@ function HowToStart() {
                 </div>
 
                 <div className="text-start">
-                    <div className="row py-3" style={{ color: "#16205F", fontSize:"20px" }}>
+                    <div className="row py-3" style={{ color: "#16205F", fontSize:"16px" }}>
                         <div className="col-6 col-md-4">
                             <FontAwesomeIcon icon={faChevronRight} /> Talent shortage
                         </div>
