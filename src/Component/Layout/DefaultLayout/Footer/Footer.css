@@ -161,9 +161,7 @@ flex-shrink: 0;
   color: var(--black, #16205f);
   text-align: left;
   font: 400 18px "Poppins", sans-serif;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+
   width: 357px;
 }
 .paragraph-53 {
@@ -182,7 +180,7 @@ flex-shrink: 0;
   text-align: left;
   font: 800 22px "Poppins", sans-serif;
   width: 332px;
-  height: 34px;
+  height: 50px;
 }
 .heading-13 {
   width: 332px;
@@ -192,14 +190,13 @@ flex-shrink: 0;
   top: 48px;
 }
 .heading-42 {
+  
   color: var(--black, #16205f);
   text-align: left;
-  font: 600 22px "Poppins", sans-serif;
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  font: 400 22px "Poppins", sans-serif;
   width: 332px;
-  height: 34px;
+  height: 100px;
+  align-items: center;
 }
 .paragraph-119 {
   width: 353px;

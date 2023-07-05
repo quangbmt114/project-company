@@ -37,12 +37,18 @@ function ContactUs() {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="group-2 mb-5" lg={12} >
+        <Row className="group-2 mb-5" lg={12}>
           <Col>
             <div className="group-2-1"></div>
             <div className="group-2-2">
               <div className="group-2-2-1">
-                <h1 style={{textAlign: "left",fontWeight: "bold",width: "80%"}}>
+                <h1
+                  style={{
+                    textAlign: "left",
+                    fontWeight: "bold",
+                    width: "80%",
+                  }}
+                >
                   Connect With Your Next Great Hire Today!
                 </h1>
                 <form className="py-5">
@@ -128,28 +134,52 @@ function ContactUs() {
           </Col>
         </Row>
         <div className="group-3">
-        <Row >
-          <Col>
-          <div className="group-3-1">
-             <img src="logo1.png" /> 
-             <div className="group-3-1-1">
-              <h4>Office</h4>
-              <p>info@courtney.lk</p>
-              <p>+94 011 283 744</p>
-              </div>      
-          </div>
-          </Col>
-          <Col>
-          <div>
-            
-          </div>
-          </Col>
-          <Col>
-          <div>
-            
-          </div>
-          </Col>
-        </Row>
+          <Row>
+            <Col>
+              <div className="group-3-1">
+              <div className="group-3-1_1">
+                  <img src="logo1.png" />
+                </div>
+                <div className="group-3-1-1">
+                  <div className="heading-4">Office</div>
+                  <div className="paragraph-13 mt-2">
+                    info@courtney.lk<br/>
+                     <p style={{fontWeight:"bold"}}>+94 011 283 744</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col>
+              <div className="group-3-2">
+                <div className="group-3-2-1">
+                  <div className="group-3-2-1-1">
+                  </div>
+                </div>
+                <div className="group-3-1-1">
+                  <div className="heading-4">Vishwa Liyanapathirana<br/><h6 style={{font:"600 14px Poppins"}}>Human Resources</h6></div>
+                  <div className="paragraph-13 mt-2">
+                  vishwa@courtney.lk<br/>
+                     <p style={{fontWeight:"bold"}}>+94 713 249 222</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col>
+            <div className="group-3-2">
+                <div className="group-3-2-1">
+                  <div className="group-3-2-1-1">
+                  </div>
+                </div>
+                <div className="group-3-1-1">
+                  <div className="heading-4">Vishwa Liyanapathirana<br/><h6 style={{font:"600 14px Poppins"}}>Human Resources</h6></div>
+                  <div className="paragraph-13 mt-2">
+                  vishwa@courtney.lk<br/>
+                     <p style={{fontWeight:"bold"}}>+94 713 249 222</p>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </div>
       </Container>
     </>
