@@ -1,4 +1,5 @@
 import "../Technologies/style.css"
+import { Link, Button } from 'react-router-dom';
 import JS from '../Technologies/img/js.png'
 import React from '../Technologies/img/react_logo.png'
 import VueJS from '../Technologies/img/logo-vuejs.png'
@@ -36,7 +37,7 @@ import hadoop from '../Technologies/img/hadoop-logo.png'
 import PowerBi from '../Technologies/img/powerBI.png'
 import OpenCv from '../Technologies/img/OpenCV_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faArrowRight} from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Img from "../HowToStart/img/img.png";
 
 function Technologies() {
@@ -55,244 +56,239 @@ function Technologies() {
 
 
             <div className="container py-5">
-                <div className="row" style={{color: "#16205F"}}>
+                <div className="row" style={{ color: "#16205F" }}>
                     <div className="col col-md-4 text-start">
                         <h1 className="fw-bold">Technologies</h1>
                         <p>Using the right technology for the right problem is our mantra. We are agile about learning new processes and tools to save time and reduce complexity</p>
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light" style={{backgroundColor: "#FFF856"}}>All</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Frontend</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Backend</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Frameworks</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Mobile App</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">DataBase</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Google</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Data Science</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">Machine Learning</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">DevOps</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">CMS</button>
-                    </div>
-                    <div className="col-4 col-md-2">
-                        <button className="btn btn-light">ECommerce</button>
-                    </div>
+                <div class="button-container">
+                    <Link to="/">
+                        <button class="btn btn-light" style={{ backgroundColor: "#FFF856" }}>All</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Frontend</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Backend</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Frameworks</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Mobile App</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">DataBase</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Google</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Data Science</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">Machine Learning</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">DevOps</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">CMS</button>
+                    </Link>
+                    <Link to="#">
+                        <button class="btn btn-light">ECommerce</button>
+                    </Link>
                 </div>
 
-                <div className="row btn-with-shadow py-5">
-                    <div className="col-6 col-md-auto ">
+                <div className="btn-with-shadow py-5">
+                    <Link to="/">
                         <button type="button" className="btn btn-link">
-                            <img src={JS} alt="" />
+                            <img src={JS} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={React} alt="" />
+                            <img src={React} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={VueJS} alt="" />
+                            <img src={VueJS} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={E} alt="" />
+                            <img src={E} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={HTML} alt="" />
+                            <img src={HTML} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={CSS} alt="" />
+                            <img src={CSS} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={NodeJs_Logo} alt="" />
+                            <img src={NodeJs_Logo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={JavaLogo} alt="" />
+                            <img src={JavaLogo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={PythonLogo} alt="" />
+                            <img src={PythonLogo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={PHP} alt="" />
+                            <img src={PHP} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={C1} alt="" />
+                            <img src={C1} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={C2} alt="" />
+                            <img src={C2} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Laravel} alt="" />
+                            <img src={Laravel} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Symfony} alt="" />
+                            <img src={Symfony} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={django} alt="" />
+                            <img src={django} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={expressJs} alt="" />
+                            <img src={expressJs} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Spring} alt="" />
+                            <img src={Spring} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={IOS} alt="" />
+                            <img src={IOS} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={reactNative} alt="" />
+                            <img src={reactNative} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={flutter} alt="" />
+                            <img src={flutter} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={kotlin} alt="" />
+                            <img src={kotlin} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={lonic} alt="" />
+                            <img src={lonic} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Mysql} alt="" />
+                            <img src={Mysql} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Sqlsever} alt="" />
+                            <img src={Sqlsever} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={postgresql} alt="" />
+                            <img src={postgresql} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={mariadb} alt="" />
+                            <img src={mariadb} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={mongodbLogo} alt="" />
+                            <img src={mongodbLogo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={redis} alt="" />
+                            <img src={redis} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={Oracle} alt="" />
+                            <img src={Oracle} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={go} alt="" />
+                            <img src={go} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={angular} alt="" />
+                            <img src={angular} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={androilogo} alt="" />
+                            <img src={androilogo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={studioLogo} alt="" />
+                            <img src={studioLogo} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={hadoop} alt="" />
+                            <img src={hadoop} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={PowerBi} alt="" />
+                            <img src={PowerBi} alt="" className="img-fluid" />
                         </button>
-                    </div>
-                    <div className="col-6 col-md-auto ">
+                    </Link>
+                    <Link to="#">
                         <button type="button" className="btn btn-link">
-                            <img src={OpenCv} alt="" />
+                            <img src={OpenCv} alt="" className="img-fluid" />
                         </button>
-                    </div>
+                    </Link>
                 </div>
 
-                
-                
-
-            </div>
-            <div className="row custom-group position-relative">
-                    
+                <div className="row custom-group position-relative">
                     <div className="col">
                         <div className="d-flex">
-                            <img src={Img} alt="" className="img-fluid"/>
+                            <img src={Img} alt="" className="img-fluid" />
                         </div>
                         <div className="custom-group-overlay">
                             <div className="custom-group-content">
@@ -345,8 +341,10 @@ function Technologies() {
                         </div>
                     </div>
                 </div>
-        </> 
-        );
+            </div>
+
+        </>
+    );
 }
 
-export default Technologies ;
+export default Technologies;
