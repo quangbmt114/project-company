@@ -70,10 +70,10 @@
     height: 100%;
     padding: 90px 30px;
 }
-
-@media(max-width:900px) {
-    .group-2 {
+@media(max-width:900px){
+    .group-2{
         position: unset;
+       
     }
 
     .group-2-2 {
@@ -83,5 +83,8 @@
 
     .group-2-1 {
         width: 100%;
+    }
+    .form-contact-us{
+        display: block;
     }
 }

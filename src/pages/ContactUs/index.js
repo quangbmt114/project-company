@@ -37,7 +37,7 @@ function ContactUs() {
           </Col>
           <Col></Col>
         </Row>
-        <Row className="group-2" lg={12}>
+        <Row className="group-2 mb-5" lg={12} >
           <Col>
             <div className="group-2-1"></div>
             <div className="group-2-2">
@@ -45,9 +45,12 @@ function ContactUs() {
                 <h1 style={{textAlign: "left",fontWeight: "bold",width: "80%"}}>
                   Connect With Your Next Great Hire Today!
                 </h1>
-                <form className="py-5" style={{ fontSize: "16px", lineHeight: "24px" }}>
-                  <div className="row" >
-                    <div className="col-md-6 form-group text-start mb-3">
+                <form className="py-5">
+                  <div
+                    className="row"
+                    style={{ fontSize: "16px", lineHeight: "24px" }}
+                  >
+                    <div className="col col-md-6 form-group text-start mb-3">
                       <label htmlFor="company">Company</label>
                       <input
                         id="company"
@@ -124,6 +127,30 @@ function ContactUs() {
             </div>
           </Col>
         </Row>
+        <div className="group-3">
+        <Row >
+          <Col>
+          <div className="group-3-1">
+             <img src="logo1.png" /> 
+             <div className="group-3-1-1">
+              <h4>Office</h4>
+              <p>info@courtney.lk</p>
+              <p>+94 011 283 744</p>
+              </div>      
+          </div>
+          </Col>
+          <Col>
+          <div>
+            
+          </div>
+          </Col>
+          <Col>
+          <div>
+            
+          </div>
+          </Col>
+        </Row>
+        </div>
       </Container>
     </>
   );
