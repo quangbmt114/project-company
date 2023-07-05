@@ -11,12 +11,18 @@ import { faChevronRight, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 function HowToStart() {
     return (
         <>
-            <div id="hero-banner-wrap">
-                <div className="hero-banner">
-                    <h2 className="title mb-3 fw-bold">How to Start</h2>
-                    <p className="content">We specialize in helping you build a team of expert developers.</p>
+            <div className="hero-banner-howwtostart">
+                <div className="howwtostart-banner">
+                    <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col-md-8">
+                            <h1 className="title mb-3 fw-bold">How to Start</h1>
+                            <p className="content">We specialize in helping you build a team of expert developers.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
 
             <div className="container py-5">
                 <div className="header-howtostart">
@@ -93,24 +99,30 @@ function HowToStart() {
                                 <h1 className="fw-bold text-start">
                                     Connect With Your Next Great Hire Today!
                                 </h1>
-                                <form className="py-5">
-                                    <div className="row" style={{ fontSize: "16px", lineHeight: "24px" }}>
-                                        <div className="col col-md-6 form-group text-start mb-3">
+                                <form className="py-3" style={{ fontSize: "16px", lineHeight: "24px" }}>
+                                    <div className="row">
+                                        <div className="col-md-6 form-group text-start mb-3">
                                             <label htmlFor="">Company</label>
                                             <input className="form-control" placeholder="Enter company" required></input>
                                         </div>
-                                        <div className="col col-md-6 form-group text-start mb-3">
+                                        <div className="col-md-6 form-group text-start mb-3">
                                             <label htmlFor="">Your Name</label>
                                             <input className="form-control" placeholder="Enter your name" required></input>
                                         </div>
-                                        <div className="col col-md-6 form-group text-start mb-3">
+                                    </div>
+
+                                    <div className="row">
+                                        <div className="col-md-6 form-group text-start mb-3">
                                             <label htmlFor="">Phone Number</label>
                                             <input className="form-control" placeholder="Enter phone number" required></input>
                                         </div>
-                                        <div className="col col-md-6 form-group text-start mb-3">
+                                        <div className="col-md-6 form-group text-start mb-3">
                                             <label htmlFor="">Email</label>
                                             <input className="form-control" placeholder="Enter email" required></input>
                                         </div>
+                                    </div>
+
+                                    <div className="row">
                                         <div className="col-12 form-group text-start mb-3">
                                             <label htmlFor="">Project Detail</label>
                                             <textarea className="form-control" rows={5} placeholder="Enter project detail"></textarea>
@@ -118,8 +130,8 @@ function HowToStart() {
                                     </div>
                                     <div className="form-group form-check py-3">
                                         <input className="form-check-input" type="checkbox" id="exampleCheck1" />
-                                        <label className="form-check-label text-start" htmlFor="exampleCheck1" style={{fontSize:"16px", lineHeight:"24px"}}>
-                                            By sending this form I confirm that I have read and accept the 
+                                        <label className="form-check-label text-start" htmlFor="exampleCheck1" style={{ fontSize: "16px", lineHeight: "24px" }}>
+                                            By sending this form I confirm that I have read and accept the
                                             <span className="fw-bold"> Privacy Policy</span>
                                         </label>
                                     </div>

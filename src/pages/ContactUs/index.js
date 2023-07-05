@@ -42,30 +42,21 @@ function ContactUs() {
             <div className="group-2-1"></div>
             <div className="group-2-2">
               <div className="group-2-2-1">
-                <h1
-                  style={{
-                    textAlign: "left",
-                    fontWeight: "bold",
-                    width: "80%",
-                  }}
-                >
+                <h1 style={{textAlign: "left",fontWeight: "bold",width: "80%"}}>
                   Connect With Your Next Great Hire Today!
                 </h1>
-                <form className="py-5">
-                  <div
-                    className="row"
-                    style={{ fontSize: "16px", lineHeight: "24px" }}
-                  >
-                    <div className="col col-md-6 form-group text-start mb-3">
+                <form className="py-5" style={{ fontSize: "16px", lineHeight: "24px" }}>
+                  <div className="row" >
+                    <div className="col-md-6 form-group text-start mb-3">
                       <label htmlFor="company">Company</label>
                       <input
-                      id="company"
+                        id="company"
                         className="form-control"
                         placeholder="Enter company"
                         required
                       ></input>
                     </div>
-                    <div className="col col-md-6 form-group text-start mb-3">
+                    <div className="col-md-6 form-group text-start mb-3">
                       <label htmlFor="name">Your Name</label>
                       <input
                         id="name"
@@ -74,16 +65,18 @@ function ContactUs() {
                         required
                       ></input>
                     </div>
-                    <div className="col col-md-6 form-group text-start mb-3">
+                  </div>
+                  <div className="row">
+                    <div className="col-md-6 form-group text-start mb-3">
                       <label htmlFor="number">Phone Number</label>
                       <input
-                      id="number"
+                        id="number"
                         className="form-control"
                         placeholder="Enter phone number"
                         required
                       ></input>
                     </div>
-                    <div className="col col-md-6 form-group text-start mb-3">
+                    <div className="col-md-6 form-group text-start mb-3">
                       <label htmlFor="email">Email</label>
                       <input
                         id="email"
