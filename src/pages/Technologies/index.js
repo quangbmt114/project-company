@@ -38,7 +38,7 @@ import PowerBi from '../Technologies/img/powerBI.png'
 import OpenCv from '../Technologies/img/OpenCV_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import Img from "../HowToStart/img/img.png";
+import Img from "../Technologies/img/img.png";
 
 function Technologies() {
     return (

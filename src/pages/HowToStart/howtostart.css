@@ -1,6 +1,6 @@
 
 .hero-banner-howwtostart {
-    background-image: url("../HowToStart/img/banner.png");
+    background-image: url("../HowToStart/images/banner.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +43,14 @@
 
 @media(max-width:900px) {
     .custom-group {
-        position: unset;
+        position: relative;
     }
 
     .custom-group-overlay {
-        position: unset;
+        position: relative;
         width: 100%;
+        height: auto;
+        border-radius: 0;
     }
 
     .custom-group-content {

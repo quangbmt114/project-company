@@ -1,10 +1,10 @@
-import "../HowToStart/style.css";
-import Banner from "../HowToStart/img/banner.png";
-import Banner2 from "../HowToStart/img/banner2.png";
-import Img from "../HowToStart/img/img.png";
-import G1 from "../HowToStart/img/g1.png";
-import G2 from "../HowToStart/img/g2.png";
-import G3 from "../HowToStart/img/g3.png";
+import "../HowToStart/howtostart.css";
+import Banner from "../HowToStart/images/banner.png";
+import Banner2 from "../HowToStart/images/banner2.png";
+import Img from "../HowToStart/images/img.png";
+import G1 from "../HowToStart/images/g1.png";
+import G2 from "../HowToStart/images/g2.png";
+import G3 from "../HowToStart/images/g3.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -89,8 +89,7 @@ function HowToStart() {
                     <img src={Banner2} className="img-fluid w-100" alt="" />
                 </div>
 
-                <div className="row custom-group position-relative">
-                    
+                <div className="row custom-group position-relative">  
                     <div className="col">
                         <div className="d-flex">
                             <img src={Img} alt="" className="img-fluid"/>
