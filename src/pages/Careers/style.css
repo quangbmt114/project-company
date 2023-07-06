@@ -6,7 +6,9 @@
   width: 100%;
   height: 408px;
 }
-
+.Careers{
+  text-align: center;
+}
 .heading {
   width: 100%;
   display: flex;
