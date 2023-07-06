@@ -7,6 +7,11 @@
   height: 408px;
 }
 
+.header_ourservices p {
+  font-size: 18px;
+  font-family: Poppins;
+}
+
 .heading {
   width: 100%;
   display: flex;
