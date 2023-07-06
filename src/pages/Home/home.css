@@ -1,0 +1,119 @@
+.background-banner {
+    background: linear-gradient(90deg, #FF9900 0%, #F2CB00 100%);
+    max-width: 100%;
+    height: auto;
+}
+
+.background-banner .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.background-banner .paragraph{
+    max-width: 453px;
+    height: auto;
+}
+
+.background-banner .content p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #16205F;
+}
+
+
+
+.background-banner .content-layout p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #16205F;    
+}
+
+.heading1 h4{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #16205F;
+}
+
+.heading2{
+    max-width: 700px;
+    max-height: auto;
+}
+
+.heading2 .title{
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #16205F;
+}
+
+.paragraph2{
+    max-width: 486px;
+    height: auto;
+
+}
+
+.paragraph2 .para{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #16205F;
+}
+
+.layout .image-container{
+    max-width: 86px;
+    height: 86px;
+    border-radius: 12px;
+    background-color: #FFF856;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.layout .layout-content{
+    color: #16205F;
+    text-align: left;
+    margin: 10px 0;
+    max-width: 357px;
+    height: auto;
+}
+
+.layout .layout-content h4  {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.layout .layout-content p  {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
