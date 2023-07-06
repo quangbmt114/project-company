@@ -32,10 +32,7 @@ function Careers() {
           </div>
         </div>
         <div className="text-start">
-          <div
-            className="col-12 col-md-4"
-            style={{ color: "#16205F", marginTop: "100px" }}
-          >
+          <div className="col-12 col-md-4" style={{ color: "#16205F", marginTop: "100px" }}>
             <h3 className="fw-bold">Developer</h3>
           </div>
         </div>
@@ -83,7 +80,7 @@ function Careers() {
             </div>
           </div>
         </div>
-        <div className="row custom-group position-relative" style={{marginTop:"350px"}}>
+        <div className="row custom-group position-relative" style={{ marginTop: "350px" }}>
           <div className="col">
             <div className="d-flex">
               <img src={Img} alt="" className="img-fluid" />
