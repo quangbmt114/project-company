@@ -52,9 +52,13 @@
     }
 }
 
+
+.service{
+    height: 50%;
+}
 .service-groups {
     display: flex;
-    height: 350px;
+    height: 250px;
 }
 
 .service-group {

@@ -1,8 +1,10 @@
 .career-banner {
-  height: 25.4375rem;
+  background-image: url("../Careers/headimage.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  flex-shrink: 0;
-  background: url('headimage.png'), lightgray -4.229px -354.861px / 101.459% 250.684% no-repeat;
+  height: 408px;
 }
 
 .heading {
