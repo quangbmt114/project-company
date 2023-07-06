@@ -1,5 +1,5 @@
-import Home from "../pages/Home";
-import HowToStart from "../pages/HowToStart";
+import Home from "../pages/Home/home.js";
+import HowToStart from "../pages/HowToStart/howtostart.js";
 import Services from "../pages/Services";
 import Technologies from "../pages/Technologies";
 import Careers from "../pages/Careers/Careers";
