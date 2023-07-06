@@ -51,3 +51,29 @@
         width: 100%;
     }
 }
+
+.service-groups{
+    display: flex;
+    height: 350px;
+}
+
+.service-group{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+     width: 100px;
+ height: 80px;
+     background:  #FFF856 50% / cover no-repeat;
+}
+
+.service-group-img{
+    width: 100%;
+}
+
+.service-group-text{
+    margin-left: 15px;
+    width: 100%;
+    color: var(--black, #16205F);
+font-family: 'Poppins';
+text-align: left;
+}
