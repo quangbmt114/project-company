@@ -6,31 +6,31 @@ import Img from "../Careers/img.png";
 function Careers() {
   return (
     <>
-      <div className="career-banner">
-        <div className="heading">
-          <div className="page-name">Careers</div>
-        </div>
-        <div className="paragraph">
-          <div className="content">
-            {" "}
-            Do you want to learn more about Courtney? Our team is looking for
-            people who want to work on interesting international projects,
-            develop and learn new skills, and share what they've learned with
-            others.
-          </div>
-        </div>
-      </div>
-      <div className="container-lg py-3">
-        <div className="header-career">
-          <div className="col-sm-4 text-start">
-            <h3 className="title">Please join us</h3>
-            <p>
-              Take a look at the open positions below. If none of them suit you,
-              or you feel you could help us in other ways, please fill out the
-              form below or contact us directly at carrers@courtney.lk
-            </p>
-          </div>
-        </div>
+            <div className="banner-ourservices">
+                <div className="banner-ourservices1">
+                    <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col-md-10">
+                            <h1 className="title mb-3 fw-bold">Careers</h1>
+                            <p className="content">Do you want to learn more about Courtney? Our team is looking for people who want to work on interesting international projects, develop and learn new skills, and share what they've learned with others.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container py-5">
+                <div className="header_ourservices">
+                    <div className="col-sm-6 text-start">
+                        <h1 className="title fw-bold">Please join us</h1>
+                    </div>
+                    <div className="col-sm-5 text-start">
+                        <p>Take a look at the open positions below.</p>
+<p>
+If none of them suit you, or you feel you could help us in other ways, please fill out the form below or contact us directly at carrers@courtney.lk
+
+ </p>
+                    </div>
+                </div>
+
         <div className="text-start">
           <div
             className="col-12 col-md-4"
