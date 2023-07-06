@@ -7,6 +7,15 @@
     width: 100%;
     height: 408px;
 }
+.row .col h1 {
+    color: #16205F;
+    text-align: left;
+}
+
+.row .col p{
+    color: #16205F;
+    font-size: 17px;   
+}
 
 .header_howtostart {
     color: #16205F;
