@@ -1,5 +1,5 @@
 import "../Technologies/style.css"
-import { Link, Button } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import JS from '../Technologies/img/js.png'
 import React from '../Technologies/img/react_logo.png'
 import VueJS from '../Technologies/img/logo-vuejs.png'
@@ -102,187 +102,189 @@ function Technologies() {
                     </Link>
                 </div>
 
-                <div className="btn-with-shadow py-5">
-                    <Link to="/">
-                        <button type="button" className="btn btn-link">
-                            <img src={JS} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={React} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={VueJS} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={E} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={HTML} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={CSS} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={NodeJs_Logo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={JavaLogo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={PythonLogo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={PHP} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={C1} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={C2} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Laravel} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Symfony} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={django} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={expressJs} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Spring} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={IOS} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={reactNative} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={flutter} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={kotlin} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={lonic} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Mysql} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Sqlsever} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={postgresql} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={mariadb} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={mongodbLogo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={redis} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={Oracle} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={go} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={angular} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={androilogo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={studioLogo} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={hadoop} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={PowerBi} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
-                    <Link to="#">
-                        <button type="button" className="btn btn-link">
-                            <img src={OpenCv} alt="" className="img-fluid" />
-                        </button>
-                    </Link>
+                <div className="buttons py-5">
+                    <div className='buttons-row d-flex align-items-center flex-wrap'>
+                        <Link to="/">
+                            <button type="button" className="btn btn-link">
+                                <img src={JS} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={React} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={VueJS} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={E} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={HTML} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={CSS} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={NodeJs_Logo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={JavaLogo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={PythonLogo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={PHP} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={C1} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={C2} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Laravel} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Symfony} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={django} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={expressJs} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Spring} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={IOS} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={reactNative} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={flutter} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={kotlin} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={lonic} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Mysql} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Sqlsever} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={postgresql} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={mariadb} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={mongodbLogo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={redis} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={Oracle} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={go} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={angular} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={androilogo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={studioLogo} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={hadoop} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={PowerBi} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                        <Link to="#">
+                            <button type="button" className="btn btn-link">
+                                <img src={OpenCv} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className="row custom-group position-relative">
