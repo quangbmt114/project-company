@@ -1,3 +1,4 @@
+
 .background-banner {
     background: linear-gradient(90deg, #FF9900 0%, #F2CB00 100%);
     max-width: 100%;
@@ -117,3 +118,112 @@
 
 }
 
+.home-group-1{
+    position: relative;
+    height: 900px;
+
+}
+
+.home-group-1-1_1{ 
+    width: 50%;
+    height: 541px;
+    position: absolute;
+    left: 0;
+    top: 15%;
+   background-color: #FFFFFF;
+   border-radius: 0px 100px 0px 0px;
+   z-index: 9;
+   padding: 5% 3%;
+   color: var(--black, #16205F);
+   font-family: 'Poppins';
+   font-style: normal;
+}
+.home-group-title{
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+line-height: 70px;
+}
+.home-group-content{
+    width: 80%;
+    text-align: left;
+    color: var(--black, #16205F);
+font-size: 18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button-build-team{
+    display: flex;
+    width: 201px;
+height: 54px;
+border-radius: 8px;
+background: var(--yellow, linear-gradient(90deg, #F90 0%, #F2CB00 100%));
+box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.12);
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+padding: 12px 17px ;
+}
+.home-group-1-2_images{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 70%;
+    height: 721px;
+    border-radius: 0px 20px 0px 100px;
+background: url("Rectangle26.png"), lightgray 0px -37.493px / 126.126% 116.537% no-repeat;
+}
+.home-group-2-1{
+    display: flex;
+    height: 350px;
+}
+.home-group-2-1_1{
+   border-radius: 10px;
+    width: 110px;
+height: 80px;
+    background: url("cube1.png"), #FFF856 50% / cover no-repeat;
+}
+.home-group-2-2_1{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+     width: 100px;
+ height: 80px;
+     background:  #FFF856 50% / cover no-repeat;
+ }
+ .home-group-2-2_2{
+     width: 100%;
+ }
+ .home-group-2-3_1{
+    border-radius: 10px;
+ height: 80px;
+     background: url("technical-support1.png"), #FFF856 50% / cover no-repeat;
+ }
+.home-group-2-1_2{
+    margin-left: 15px;
+    width: 100%;
+    color: var(--black, #16205F);
+font-family: 'Poppins';
+text-align: left;
+
+}
+.home-group-2-1_2>p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.home-group-3{
+    background: var(--yellow, linear-gradient(90deg, #F90 0%, #F2CB00 100%));
+    /* Shadow */
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.06);
+}
