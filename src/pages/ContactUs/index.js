@@ -27,7 +27,7 @@ function ContactUs() {
         <Row>
           <Col>
             <div className="heading-2">
-              <p className="tittle-heading-2">Get in touch</p>
+              <div className="tittle-heading-2">Get in touch</div>
               <p className="content-heading-2">
                 Please feel free to get in touch with us via any convenient
                 means (phone, whatsapp, email, submit a contact form). We will

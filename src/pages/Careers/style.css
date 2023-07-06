@@ -7,11 +7,15 @@
   height: 408px;
 }
 
+
 .header_ourservices p {
   font-size: 18px;
   font-family: Poppins;
 }
 
+.Careers{
+  text-align: center;
+}
 .heading {
   width: 100%;
   display: flex;
