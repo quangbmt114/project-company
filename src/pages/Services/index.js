@@ -32,6 +32,10 @@ function Services() {
                     </div>
                 </div>
 
+                <Row>
+                    <p></p>
+                    <p></p>
+                </Row>
                 <div className="service py-5">
                     <Row>
                         <Col>
@@ -77,7 +81,7 @@ function Services() {
                                 </div>
                             </div>
                         </Col>
-                        
+
                         <Col>
                             <div className="service-groups me-4">
                                 <div className="service-group">
@@ -88,7 +92,7 @@ function Services() {
                                 <div className="service-group-text">
                                     <h1>Remote Office</h1>
                                     <p>Courtney is a trustworthy partner that can help you open your own remote development center and grow your business from Sri Lanka and United Kingdom.
-</p>
+                                    </p>
                                 </div>
                             </div>
                         </Col>

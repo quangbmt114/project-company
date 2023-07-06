@@ -167,10 +167,10 @@ function Home() {
                         </div>
                         <div className='layout-content'>
                             <div className='layout-content-heading'>
-                                <h4>Dedicated Teams</h4>
+                                <h4>Staff Augmentation</h4>
                             </div>
                             <div className='layout-content-paragraph'>
-                                <p>Find your next team member</p>
+                                <p>Build a distributed development team</p>
                             </div>
                         </div>
                     </div>
@@ -180,10 +180,10 @@ function Home() {
                         </div>
                         <div className='layout-content'>
                             <div className='layout-content-heading'>
-                                <h4>Dedicated Teams</h4>
+                                <h4>Software Outsourcing</h4>
                             </div>
                             <div className='layout-content-paragraph'>
-                                <p>Find your next team member</p>
+                                <p>End-to-End Software Development Outsourcing Solutions</p>
                             </div>
                         </div>
                     </div>
@@ -193,10 +193,10 @@ function Home() {
                         </div>
                         <div className='layout-content'>
                             <div className='layout-content-heading'>
-                                <h4>Dedicated Teams</h4>
+                                <h4>Remote Office</h4>
                             </div>
                             <div className='layout-content-paragraph'>
-                                <p>Find your next team member</p>
+                                <p>Open your own remote development center and grow your business</p>
                             </div>
                         </div>
                     </div>
