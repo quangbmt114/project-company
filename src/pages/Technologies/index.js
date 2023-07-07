@@ -1,54 +1,54 @@
-import React, { useState } from "react";
-import "../Technologies/style.css";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import "../Technologies/style.css"
+import { Link } from 'react-router-dom';
 
-import JS_Logo from "../Technologies/img/js-logo.png";
-import React_Logo from "../Technologies/img/react-logo.png";
-import VueJS_Logo from "../Technologies/img/vuejs-logo.png";
-import E_Logo from "../Technologies/img/e-icon.png";
-import HTML_Logo from "../Technologies/img/html-logo.png";
-import CSS_Logo from "../Technologies/img/css-logo.png";
-import NodeJs_Logo from "../Technologies/img/nodejs-logo.png";
-import Java_Logo from "../Technologies/img/Java-logo.png";
-import Python_Logo from "../Technologies/img/python-logo.png";
-import PHP_Logo from "../Technologies/img/PHP-logo.png";
-import Csharp_Logo from "../Technologies/img/csharp-logo.png";
-import Cplusplus_Logo from "../Technologies/img/cplusplus-logo.png";
-import Laravel_Logo from "../Technologies/img/laravel-logo.png";
-import Symfony_Logo from "../Technologies/img/symfony-logo.png";
-import Django_Logo from "../Technologies/img/Django-logo.png";
-import ExpressJs_Logo from "../Technologies/img/expressJs-logo.png";
-import Spring_Logo from "../Technologies/img/Spring-logo.png";
-import IOS_Logo from "../Technologies/img/iOS-Logo.png";
-import ReactNative_Logo from "../Technologies/img/react-native.png";
-import Flutter_Logo from "../Technologies/img/flutter-logo.png";
-import Kotlin_Logo from "../Technologies/img/kotlin-logo 1.png";
-import Lonic_Logo from "../Technologies/img/lonic_logo.png";
-import Mysql_Logo from "../Technologies/img/MySQL-Logo.png";
-import Sqlsever_Logo from "../Technologies/img/sql-server-logo.png";
-import Postgresql_Logo from "../Technologies/img/postgresql-icon.png";
-import Mariadb_Logo from "../Technologies/img/mariadb-logo.png";
-import Mongodb_Logo from "../Technologies/img/mongodb_logo.png";
-import Redis_Logo from "../Technologies/img/Redis-Logo.png";
-import Oracle_Logo from "../Technologies/img/Oracle-Logo.png";
-import Go_Logo from "../Technologies/img/go-logo.png";
-import Angular_Logo from "../Technologies/img/angular-logo.png";
-import Android_Logo from "../Technologies/img/android-logo.png";
-import Studio_Logo from "../Technologies/img/studio-logo.png";
-import Hadoop_Logo from "../Technologies/img/hadoop-logo.png";
-import PowerBi_Logo from "../Technologies/img/powerBi-logo.png";
-import OpenCv_Logo from "../Technologies/img/openCV-logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import JS_Logo from '../Technologies/img/js-logo.png'
+import React_Logo from '../Technologies/img/react-logo.png'
+import VueJS_Logo from '../Technologies/img/vuejs-logo.png'
+import E_Logo from '../Technologies/img/e-icon.png'
+import HTML_Logo from '../Technologies/img/html-logo.png'
+import CSS_Logo from '../Technologies/img/css-logo.png'
+import NodeJs_Logo from '../Technologies/img/nodejs-logo.png'
+import Java_Logo from '../Technologies/img/Java-logo.png'
+import Python_Logo from '../Technologies/img/python-logo.png'
+import PHP_Logo from '../Technologies/img/php-logo.png'
+import Csharp_Logo from '../Technologies/img/csharp-logo.png'
+import Cplusplus_Logo from '../Technologies/img/cplusplus-logo.png'
+import Laravel_Logo from '../Technologies/img/laravel-logo.png'
+import Symfony_Logo from '../Technologies/img/symfony-logo.png'
+import Django_Logo from '../Technologies/img/django-logo.png'
+import ExpressJs_Logo from '../Technologies/img/expressJs-logo.png'
+import Spring_Logo from '../Technologies/img/spring-logo.png'
+import IOS_Logo from '../Technologies/img/ios-logo.png'
+import ReactNative_Logo from '../Technologies/img/react-native.png'
+import Flutter_Logo from '../Technologies/img/flutter-logo.png'
+import Kotlin_Logo from '../Technologies/img/kotlin-logo 1.png'
+import Lonic_Logo from '../Technologies/img/lonic_logo.png'
+import Mysql_Logo from '../Technologies/img/mysql-logo.png'
+import Sqlsever_Logo from '../Technologies/img/sql-server-logo.png'
+import Postgresql_Logo from '../Technologies/img/postgresql-icon.png'
+import Mariadb_Logo from '../Technologies/img/mariadb-logo.png'
+import Mongodb_Logo from '../Technologies/img/mongodb_logo.png'
+import Redis_Logo from '../Technologies/img/redis-Logo.png'
+import Oracle_Logo from '../Technologies/img/oracle-logo.png'
+import Go_Logo from '../Technologies/img/go-logo.png'
+import Angular_Logo from '../Technologies/img/angular-logo.png'
+import Android_Logo from '../Technologies/img/android-logo.png'
+import Studio_Logo from '../Technologies/img/studio-logo.png'
+import Hadoop_Logo from '../Technologies/img/hadoop-logo.png'
+import PowerBi_Logo from '../Technologies/img/powerBi-logo.png'
+import OpenCv_Logo from '../Technologies/img/openCV-logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Img from "../Technologies/img/img.png";
 
 function ButtonContainer({ onCategoryClick }) {
-  const [category, setCategory] = useState("All");
+    const [category, setCategory] = useState('All');
 
-  const handleCategoryClick = (selectedCategory) => {
-    setCategory(selectedCategory);
-    onCategoryClick(selectedCategory); // Gọi hàm onCategoryClick
-  };
+    const handleCategoryClick = (selectedCategory) => {
+        setCategory(selectedCategory);
+        onCategoryClick(selectedCategory); // Gọi hàm onCategoryClick
+    };
 
   return (
     <div className="button-container">
