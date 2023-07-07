@@ -29,7 +29,12 @@ function Header() {
             </Nav>
             <Nav className="d-flex">
                 <div className="build-a-team">
-                   <span  className="font-a-team">BUILD A TEAM <img src="arrow_forward.svg"className="svg-a-team" width={20} alt="..." /></span>
+                   <span  className="font-a-team">
+                      <Nav.Link className="link">
+                        <Link to="#" className="link">BUILD A TEAM </Link>
+                      </Nav.Link>
+                      <img src="arrow_forward.svg"className="svg-a-team" width={20} alt="..." />
+                    </span>
                 </div>
                 <Nav.Link className="link">
                 <Link to="/contactus" className="link">Contact US</Link>
