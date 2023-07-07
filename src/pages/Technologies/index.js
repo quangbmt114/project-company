@@ -1,46 +1,210 @@
+import React, { useState } from 'react';
 import "../Technologies/style.css"
-import { Link} from 'react-router-dom';
-import JS from '../Technologies/img/js.png'
-import React from '../Technologies/img/react_logo.png'
-import VueJS from '../Technologies/img/logo-vuejs.png'
-import E from '../Technologies/img/e-icon.png'
-import HTML from '../Technologies/img/html.png'
-import CSS from '../Technologies/img/css.png'
-import NodeJs_Logo from '../Technologies/img/Node.js_logo.png'
-import JavaLogo from '../Technologies/img/Java_logo 1.png'
-import PythonLogo from '../Technologies/img/PythonLogo.png'
-import PHP from '../Technologies/img/PHP-logo.png'
-import C1 from '../Technologies/img/c++.png'
-import C2 from '../Technologies/img/C++_Logo 1.png'
-import Laravel from '../Technologies/img/laravel-logo.png'
-import Symfony from '../Technologies/img/symfony-logo.png'
-import django from '../Technologies/img/Django-logo.png'
-import expressJs from '../Technologies/img/expressJs.png'
-import Spring from '../Technologies/img/Spring-logo.png'
-import IOS from '../Technologies/img/iOS-Logo.png'
-import reactNative from '../Technologies/img/react-native.png'
-import flutter from '../Technologies/img/flutter-logo.png'
-import kotlin from '../Technologies/img/Kotlin_logo 1.png'
-import lonic from '../Technologies/img/Ionic_Logo.png'
-import Mysql from '../Technologies/img/MySQL-Logo.png'
-import Sqlsever from '../Technologies/img/sql-server-logo.png'
-import postgresql from '../Technologies/img/postgresql-icon.png'
-import mariadb from '../Technologies/img/mariadb-logo.png'
-import mongodbLogo from '../Technologies/img/mongodb_logo.png'
-import redis from '../Technologies/img/Redis-Logo.png'
-import Oracle from '../Technologies/img/Oracle-Logo.png'
-import go from '../Technologies/img/Go_Logo.png'
-import angular from '../Technologies/img/angular-logo.png'
-import androilogo from '../Technologies/img/android_logo.png'
-import studioLogo from '../Technologies/img/studiologo.png'
-import hadoop from '../Technologies/img/hadoop-logo.png'
-import PowerBi from '../Technologies/img/powerBI.png'
-import OpenCv from '../Technologies/img/OpenCV_logo.png'
+import { Link } from 'react-router-dom';
+
+import JS_Logo from '../Technologies/img/js-logo.png'
+import React_Logo from '../Technologies/img/react-logo.png'
+import VueJS_Logo from '../Technologies/img/vuejs-logo.png'
+import E_Logo from '../Technologies/img/e-icon.png'
+import HTML_Logo from '../Technologies/img/html-logo.png'
+import CSS_Logo from '../Technologies/img/css-logo.png'
+import NodeJs_Logo from '../Technologies/img/nodejs-logo.png'
+import Java_Logo from '../Technologies/img/Java-logo.png'
+import Python_Logo from '../Technologies/img/python-logo.png'
+import PHP_Logo from '../Technologies/img/php-logo.png'
+import Csharp_Logo from '../Technologies/img/csharp-logo.png'
+import Cplusplus_Logo from '../Technologies/img/cplusplus-logo.png'
+import Laravel_Logo from '../Technologies/img/laravel-logo.png'
+import Symfony_Logo from '../Technologies/img/symfony-logo.png'
+import Django_Logo from '../Technologies/img/django-logo.png'
+import ExpressJs_Logo from '../Technologies/img/expressJs-logo.png'
+import Spring_Logo from '../Technologies/img/spring-logo.png'
+import IOS_Logo from '../Technologies/img/ios-logo.png'
+import ReactNative_Logo from '../Technologies/img/react-native.png'
+import Flutter_Logo from '../Technologies/img/flutter-logo.png'
+import Kotlin_Logo from '../Technologies/img/kotlin-logo 1.png'
+import Lonic_Logo from '../Technologies/img/lonic_logo.png'
+import Mysql_Logo from '../Technologies/img/mysql-logo.png'
+import Sqlsever_Logo from '../Technologies/img/sql-server-logo.png'
+import Postgresql_Logo from '../Technologies/img/postgresql-icon.png'
+import Mariadb_Logo from '../Technologies/img/mariadb-logo.png'
+import Mongodb_Logo from '../Technologies/img/mongodb_logo.png'
+import Redis_Logo from '../Technologies/img/redis-Logo.png'
+import Oracle_Logo from '../Technologies/img/oracle-logo.png'
+import Go_Logo from '../Technologies/img/go-logo.png'
+import Angular_Logo from '../Technologies/img/angular-logo.png'
+import Android_Logo from '../Technologies/img/android-logo.png'
+import Studio_Logo from '../Technologies/img/studio-logo.png'
+import Hadoop_Logo from '../Technologies/img/hadoop-logo.png'
+import PowerBi_Logo from '../Technologies/img/powerBi-logo.png'
+import OpenCv_Logo from '../Technologies/img/openCV-logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Img from "../Technologies/img/img.png";
 
+function ButtonContainer({ onCategoryClick }) {
+    const [category, setCategory] = useState('All');
+
+    const handleCategoryClick = (selectedCategory) => {
+        setCategory(selectedCategory);
+        onCategoryClick(selectedCategory); // Gọi hàm onCategoryClick
+    };
+
+    return (
+        <div className="button-container">
+            <div className="row">
+                <div className="col-md-12 ">
+                    <div className='col d-flex flex-wrap'>
+                        <button className={`btn btn-default ${category === 'All' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('All')}>All
+                        </button>
+                        <button className={`btn btn-default ${category === 'Frontend' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Frontend')}>Frontend
+                        </button>
+                        <button className={`btn btn-default ${category === 'Backend' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Backend')}>Backend
+                        </button>
+                        <button className={`btn btn-default ${category === 'Frameworks' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Frameworks')}>Frameworks
+                        </button>
+                        <button className={`btn btn-default ${category === 'MobileApp' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('MobileApp')}>Mobile App
+                        </button>
+                        <button className={`btn btn-default ${category === 'DataBase' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('DataBase')}>DataBase
+                        </button>
+                        <button className={`btn btn-default ${category === 'Google' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Google')}>Google
+                        </button>
+                        <button className={`btn btn-default ${category === 'DataScience' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Data Science')}>Data Science
+                        </button>
+                        <button className={`btn btn-default ${category === 'MachineLearning' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Machine Learning')}>Machine Learning
+                        </button>
+                        <button className={`btn btn-default ${category === 'DevOps' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('DevOps')}>DevOps
+                        </button>
+                        <button className={`btn btn-default ${category === 'CMS' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('CMS')}>CMS
+                        </button>
+                        <button className={`btn btn-default ${category === 'ECommerce' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('ECommerce')}>ECommerce
+                        </button>
+                        <button className={`btn btn-default ${category === 'Security' ? 'active' : ''}`}
+                            onClick={() => handleCategoryClick('Security')}>Security
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+function ButtonList({ category }) {
+    const buttonData = {
+        All: [
+            { id: 1, src: JS_Logo },
+            { id: 2, src: React_Logo },
+            { id: 3, src: VueJS_Logo },
+            { id: 4, src: E_Logo },
+            { id: 5, src: HTML_Logo },
+            { id: 6, src: CSS_Logo },
+            { id: 7, src: NodeJs_Logo },
+            { id: 8, src: Java_Logo },
+            { id: 9, src: Python_Logo },
+            { id: 10, src: PHP_Logo },
+            { id: 11, src: Csharp_Logo },
+            { id: 12, src: Cplusplus_Logo },
+            { id: 13, src: Laravel_Logo },
+            { id: 14, src: Symfony_Logo },
+            { id: 15, src: Django_Logo },
+            { id: 16, src: ExpressJs_Logo },
+            { id: 17, src: Spring_Logo },
+            { id: 18, src: IOS_Logo },
+            { id: 19, src: ReactNative_Logo },
+            { id: 20, src: Flutter_Logo },
+            { id: 21, src: Kotlin_Logo },
+            { id: 22, src: Lonic_Logo },
+            { id: 23, src: Mysql_Logo },
+            { id: 24, src: Sqlsever_Logo },
+            { id: 25, src: Postgresql_Logo },
+            { id: 26, src: Mariadb_Logo },
+            { id: 27, src: Mongodb_Logo },
+            { id: 28, src: Redis_Logo },
+            { id: 29, src: Oracle_Logo },
+            { id: 30, src: Go_Logo },
+            { id: 31, src: Angular_Logo },
+            { id: 32, src: Android_Logo },
+            { id: 33, src: Studio_Logo },
+            { id: 34, src: Hadoop_Logo },
+            { id: 35, src: PowerBi_Logo },
+            { id: 36, src: OpenCv_Logo },
+
+        ],
+        Frontend: [
+            { id: 1, src: JS_Logo },
+            { id: 2, src: React_Logo },
+            { id: 3, src: VueJS_Logo },
+            { id: 5, src: HTML_Logo },
+            { id: 6, src: CSS_Logo },
+            { id: 18, src: IOS_Logo },
+            { id: 19, src: ReactNative_Logo },
+            { id: 20, src: Flutter_Logo },
+            { id: 21, src: Kotlin_Logo },
+            { id: 22, src: Lonic_Logo },
+            { id: 31, src: Angular_Logo },
+            { id: 32, src: Android_Logo },
+            { id: 33, src: Studio_Logo },
+
+        ],
+        Backend:[
+            { id: 1, src: JS_Logo },
+            { id: 7, src: NodeJs_Logo },
+            { id: 8, src: Java_Logo },
+            { id: 9, src: Python_Logo },
+            { id: 10, src: PHP_Logo },
+            { id: 11, src: Csharp_Logo },
+            { id: 13, src: Laravel_Logo },
+            { id: 16, src: ExpressJs_Logo },
+            { id: 17, src: Spring_Logo },
+            { id: 15, src: Django_Logo },
+            { id: 21, src: Kotlin_Logo },
+            { id: 30, src: Go_Logo },
+        ],
+        Frameworks:[
+
+        ],
+        MobileApp:[
+
+        ]
+
+    };
+
+    const buttons = buttonData[category] || [];
+
+    return (
+        <div className="buttons py-5">
+            <div className="row justify-content-center">
+                {buttons.map((button) => (
+                    <div className="col-6 col-md-4 col-lg-2 d-flex align-items-center" key={button.id}>
+                        <Link to="#" className="d-flex justify-content-center align-items-center flex-grow-1">
+                            <button type="button" className="btn btn-link">
+                                <img src={button.src} alt="" className="img-fluid" />
+                            </button>
+                        </Link>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+}
 function Technologies() {
+    const [category, setCategory] = useState('All');
+
+    const handleCategoryClick = (selectedCategory) => {
+        setCategory(selectedCategory);
+    };
     return (
         <>
             <div className="hero-banner-technologies">
@@ -63,8 +227,8 @@ function Technologies() {
                     </div>
                 </div>
 
-                <div class="button-container">
-                    <Link to="/">
+                {/* <div class="button-container">
+                    <Link to="#">
                         <button class="btn btn-light" style={{ backgroundColor: "#FFF856" }}>All</button>
                     </Link>
                     <Link to="#">
@@ -106,32 +270,32 @@ function Technologies() {
                     <div className='buttons-row d-flex align-items-center flex-wrap'>
                         <Link to="/">
                             <button type="button" className="btn btn-link">
-                                <img src={JS} alt="" className="img-fluid" />
+                                <img src={JS_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={React} alt="" className="img-fluid" />
+                                <img src={React_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={VueJS} alt="" className="img-fluid" />
+                                <img src={VueJS_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={E} alt="" className="img-fluid" />
+                                <img src={E_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={HTML} alt="" className="img-fluid" />
+                                <img src={HTML_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={CSS} alt="" className="img-fluid" />
+                                <img src={CSS_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
@@ -141,151 +305,153 @@ function Technologies() {
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={JavaLogo} alt="" className="img-fluid" />
+                                <img src={Java_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={PythonLogo} alt="" className="img-fluid" />
+                                <img src={Python_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={PHP} alt="" className="img-fluid" />
+                                <img src={PHP_Logo} _Logo alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={C1} alt="" className="img-fluid" />
+                                <img src={C1_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={C2} alt="" className="img-fluid" />
+                                <img src={C2_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Laravel} alt="" className="img-fluid" />
+                                <img src={Laravel_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Symfony} alt="" className="img-fluid" />
+                                <img src={Symfony_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={django} alt="" className="img-fluid" />
+                                <img src={django_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={expressJs} alt="" className="img-fluid" />
+                                <img src={expressJs_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Spring} alt="" className="img-fluid" />
+                                <img src={Spring_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={IOS} alt="" className="img-fluid" />
+                                <img src={IOS_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={reactNative} alt="" className="img-fluid" />
+                                <img src={reactNative_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={flutter} alt="" className="img-fluid" />
+                                <img src={flutter_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={kotlin} alt="" className="img-fluid" />
+                                <img src={kotlin_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={lonic} alt="" className="img-fluid" />
+                                <img src={lonic_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Mysql} alt="" className="img-fluid" />
+                                <img src={Mysql_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Sqlsever} alt="" className="img-fluid" />
+                                <img src={Sqlsever_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={postgresql} alt="" className="img-fluid" />
+                                <img src={postgresql_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={mariadb} alt="" className="img-fluid" />
+                                <img src={mariadb_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={mongodbLogo} alt="" className="img-fluid" />
+                                <img src={mongodb_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={redis} alt="" className="img-fluid" />
+                                <img src={redis_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={Oracle} alt="" className="img-fluid" />
+                                <img src={Oracle_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={go} alt="" className="img-fluid" />
+                                <img src={go_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={angular} alt="" className="img-fluid" />
+                                <img src={angular_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={androilogo} alt="" className="img-fluid" />
+                                <img src={androi_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={studioLogo} alt="" className="img-fluid" />
+                                <img src={studio_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={hadoop} alt="" className="img-fluid" />
+                                <img src={hadoop_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={PowerBi} alt="" className="img-fluid" />
+                                <img src={PowerBi_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                         <Link to="#">
                             <button type="button" className="btn btn-link">
-                                <img src={OpenCv} alt="" className="img-fluid" />
+                                <img src={OpenCv_Logo} alt="" className="img-fluid" />
                             </button>
                         </Link>
                     </div>
-                </div>
+                </div> */}
+                <ButtonContainer category={category} onCategoryClick={handleCategoryClick} />
+                <ButtonList category={category} />
 
                 <div className="row custom-group position-relative">
                     <div className="col">
