@@ -26,6 +26,7 @@
     border: none;
 }
 
+<<<<<<< Updated upstream
 .button-container .btn.active {
     background-color: #FFF856; 
     color: #16205F;
@@ -65,3 +66,15 @@
         width: 100%;
     }
 }
+=======
+#hero-banner-wrap p {
+    font-size: 1.2em;
+    font-weight: 300 !important;
+    line-height: 1.6;
+    text-align: center;
+    word-spacing: 1px;
+    letter-spacing: -.40px;
+    margin: 2%;
+    padding: 1px;
+}
+>>>>>>> Stashed changes
