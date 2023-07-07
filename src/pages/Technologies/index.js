@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React, { useState } from 'react';
 import "../Technologies/style.css"
 import { Link } from 'react-router-dom';
@@ -305,10 +306,60 @@ function Technologies() {
               <p className="content">
                 We specialize in helping you build a team of expert developers.
               </p>
+=======
+import "../Technologies/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+function Technologies() {
+  return (
+    <>
+      <div id="hero-banner-wrap">
+        <div className="hero-banner">
+          <h2 className="title mb-3 fw-bold">Technologies</h2>
+          <p className="content">
+            We specialize in helping you build a team of expert developers.
+          </p>
+        </div>
+      </div>
+
+      <div className="container py-5">
+        <div className="row" style={{ color: "#16205F" }}>
+          <div className="col col-md-4 text-start">
+            <h1 className="fw-bold">Technologies</h1>
+            <p>
+              Using the right technology for the right problem is our mantra. We
+              are agile about learning new processes and tools to save time and
+              reduce complexity
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            <div className="btn-group">
+              <button
+                className="btn btn-light active"
+                style={{ backgroundColor: "#FFF856" }}
+              >
+                All
+              </button>
+              <button className="btn btn-light">Frontend</button>
+              <button className="btn btn-light">Backend</button>
+              <button className="btn btn-light">Frameworks</button>
+              <button className="btn btn-light">Mobile App</button>
+              <button className="btn btn-light">DataBase</button>
+              <button className="btn btn-light">Google</button>
+              <button className="btn btn-light">Data Science</button>
+              <button className="btn btn-light">Machine Learning</button>
+              <button className="btn btn-light">DevOps</button>
+              <button className="btn btn-light">CMS</button>
+              <button className="btn btn-light">ECommerce</button>
+              <button className="btn btn-light">Security</button>
+>>>>>>> Stashed changes
             </div>
           </div>
         </div>
       </div>
+<<<<<<< Updated upstream
 
       <div className="container py-5">
         <div className="row" style={{ color: "#16205F" }}>
@@ -416,6 +467,17 @@ function Technologies() {
                 </form>
               </div>
             </div>
+=======
+      <div>
+        <div class="container">
+          <div class="row" style={{color:"red"}}>
+            <button></button>
+            <div class="col-sm">One of three columns</div>
+            <div class="col-sm">One of three columns</div>
+            <div class="col-sm">One of three columns</div>
+            <div class="col-sm">One of three columns</div>
+            <div class="col-sm">One of three columns</div>
+>>>>>>> Stashed changes
           </div>
         </div>
       </div>
