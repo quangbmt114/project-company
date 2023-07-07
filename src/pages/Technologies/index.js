@@ -334,9 +334,10 @@ function Technologies() {
                                         </label>
                                     </div>
                                     <div className="d-flex justify-content-start">
-                                        <button className="btn btn-warning" style={{ borderRadius: "8px" }}>
-                                            GET CONSULTATION <FontAwesomeIcon icon={faArrowRight} />
+                                        <Link to="buildATeam">
+                                             <button className="btn btn-warning" style={{ borderRadius: "8px" }}> GET CONSULTATION<FontAwesomeIcon icon={faArrowRight} />
                                         </button>
+                                        </Link>
                                     </div>
                                 </form>
                             </div>
