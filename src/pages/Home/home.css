@@ -3,18 +3,9 @@
     align-items: center;
 }
 
-.button-text {
-    margin-right: 5px;
-    /* Adjust the spacing between the text and icon */
-}
-
-.button-icon {
-    margin-left: 5px;
-    /* Adjust the spacing between the icon and text */
-}
-
 .button-modal-container Button{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
     border: none;
 }
 
