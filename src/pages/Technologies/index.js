@@ -234,8 +234,35 @@ function ButtonList({ category }) {
       { id: 21, src: Kotlin_Logo },
       { id: 30, src: Go_Logo },
     ],
-    Frameworks: [],
-    MobileApp: [],
+    Frameworks: [
+      { id: 2, src: React_Logo },
+      { id: 3, src: VueJS_Logo },
+      { id: 5, src: HTML_Logo },
+      { id: 6, src: CSS_Logo },
+      { id: 18, src: IOS_Logo },
+      { id: 19, src: ReactNative_Logo },
+      { id: 20, src: Flutter_Logo },
+      { id: 21, src: Kotlin_Logo },
+      { id: 22, src: Lonic_Logo },
+      { id: 31, src: Angular_Logo },
+      { id: 32, src: Android_Logo },
+      { id: 33, src: Studio_Logo },
+    ],
+      
+    MobileApp: [
+      { id: 19, src: ReactNative_Logo },
+      { id: 20, src: Flutter_Logo },
+      { id: 21, src: Kotlin_Logo },
+      { id: 22, src: Lonic_Logo },
+      { id: 31, src: Angular_Logo },
+      { id: 32, src: Android_Logo },
+      { id: 33, src: Studio_Logo },
+    ],
+
+    DataBase: [
+      { id: 24, src: Sqlsever_Logo },
+      { id: 23, src: Mysql_Logo },
+    ],
   };
 
   const buttons = buttonData[category] || [];
