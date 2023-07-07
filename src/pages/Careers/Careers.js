@@ -9,7 +9,7 @@ function Careers() {
             <div className="banner-ourservices">
                 <div className="banner-ourservices1">
                     <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-md-10">
+                        <div className="col-md-6 Careers">
                             <h1 className="title mb-3 fw-bold">Careers</h1>
                             <p className="content">Do you want to learn more about Courtney? Our team is looking for people who want to work on interesting international projects, develop and learn new skills, and share what they've learned with others.</p>
                         </div>
